@@ -1,17 +1,10 @@
 package application.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
 
 public class Produto {
     @Entity
     @Table(name="Produto")
-    public class Livro {
+    public class Produto {
         @Id
         private int id;
         private String titulo;
